@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+ <div id="allesBehealter">
+
+  <div id="bpmBehealter">
+    <span id="bpmBeschriftung">BPM</span>
+	   <input id="bpm" type="number" name="bpm" value="90" min="1" max="999">
+  </div>
+
+	<select id="kickSelect" class="drumSelect">
+	  <option value="kick0">Kick 1</option>
+	  <option value="kick1">Kick 2</option>
+	  <option value="kick2">Kick 3</option>
+	  <option value="kick3">Kick 4</option>
+	  <option value="kick4">Kick 5</option>
+	  <option value="kick5">Kick 6</option>
+	  <option value="kick6">Kick 7</option>
+	  <option value="kick7">Kick 8</option>
+	  <option value="kick8">Kick 9</option>
+	  <option value="kick9">Kick 10</option>
+	</select>
+	<select id="snareSelect" class="drumSelect">
+	  <option value="snare0">Snare 1</option>
+	  <option value="snare1">Snare 2</option>
+	  <option value="snare2">Snare 3</option>
+	  <option value="snare3">Snare 4</option>
+	  <option value="snare4">Snare 5</option>
+	  <option value="snare5">Snare 6</option>
+	  <option value="snare6">Snare 7</option>
+	  <option value="snare7">Snare 8</option>
+	  <option value="snare8">Snare 9</option>
+	  <option value="snare9">Snare 10</option>
+	</select>
+	<select id="hihatSelect" class="drumSelect">
+	  <option value="hihat0">Hi-Hat 1</option>
+	  <option value="hihat1">Hi-Hat 2</option>
+	  <option value="hihat2">Hi-Hat 3</option>
+	  <option value="hihat3">Hi-Hat 4</option>
+	  <option value="hihat4">Hi-Hat 5</option>
+	  <option value="hihat5">Hi-Hat 6</option>
+	  <option value="hihat6">Hi-Hat 7</option>
+	  <option value="hihat7">Hi-Hat 8</option>
+	  <option value="hihat8">Hi-Hat 9</option>
+	  <option value="hihat9">Hi-Hat 10</option>
+	</select>
+    
+   
+	<div id="behealter">
+     <div id="kickBlocks" class="blockReihe"></div>
+     <div id="snareBlocks" class="blockReihe"></div>
+     <div id="hihatBlocks" class="blockReihe"></div>
+	</div>
+   
+	<button id="play">Play</button>
+   
+	</div>
+
+	<span id="orcun">© Orcun Ilker Döger</span>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

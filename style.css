@@ -1,0 +1,132 @@
+body{
+  font-family: Helvetica, Arial, Geneva, sans-serif;
+  background-color: #d1d1d1;
+}
+
+#allesBehealter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.blockReihe{
+}
+
+.block{
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  float: left;
+  margin: 5px 5px;
+  
+  background-color: #ECF0F1;
+  	border-color: #606264;
+  
+  border-radius: 4px;
+    
+}
+
+.currentTakt{
+  border-color: #3d90bf !important;
+  transition-duration: 0.1s;
+}
+
+.selected{
+  background-color: #FA6E73;
+}
+
+.taktEndBlock{
+  	border-color: #505254;
+}
+
+
+.playing{
+  background-color: #3d90bf !important;
+  color: white;
+}
+
+#play {
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.1s;
+  
+  position: absolute;
+  top: 123%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  padding: 10px 300px;
+  font-size: 24px;
+  border-radius: 8px;
+  
+  background-color: #f0f0f0;
+  border: 0px;
+}
+
+#play:hover {
+  background-color: #dedede; 
+}
+
+
+
+.drumSelect{
+  position: absolute;
+  left: -6%;
+  transform: translate(-50%, -50%);
+  
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  
+  text-align: center;
+  
+  background-color: #d1d1d1;
+}
+#kickSelect{
+  top: 17%;
+}
+#snareSelect{
+  top: 50%;
+}
+#hihatSelect{
+  top: 83%;
+}
+
+
+
+#bpmBehealter{
+  position: absolute;
+  top: -14%;
+  left: 50.6%;
+  transform: translate(-50%, -50%);
+    
+  text-align:center;
+}
+
+#bpm{
+  font-size: 24px;
+  text-align: right;
+  width: 55px;
+  
+  background-color: #d1d1d1;
+  border: solid 0px;
+}
+
+#bpmBeschriftung{
+  position: absolute;
+  top: -74%;
+  left: 5%;
+  font-weight: bold;
+}
+
+
+#orcun{
+	position: absolute;
+	bottom: 0.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	font-size: 14px;
+	color: #ECF0F1;
+}
